@@ -73,6 +73,7 @@ main{
     color: #804E21;
     padding: 10px 0;
     text-align: center;
+    width: 100%;
 }
 .rubyfood{
     background-color: #FFE34E;
@@ -83,6 +84,7 @@ main{
     height: auto;
     background-position: 50% 30%;
     background-repeat: no-repeat;
+    width: 100%;
 }
 .rubyfood img{
     width: 357px;
@@ -240,6 +242,364 @@ main{
     corner-shape: superellipse(10) superellipse(10) bevel bevel;
 }
 
-.cta2{
+.problem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    min-height: 680px;
+}
+.problem1{
+    font-size: clamp(14px, calc(10.9vw - 3.1px), 20px);
+    font-weight: bold;
+    color: #804E21;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    margin: 0 0 30px 0;
+}
+.problem2{
+    background-color: #FFFFFF;
+    width: fit-content;
+    border-radius: 80%;
+    padding: 20px 40px;
+    font-size: 16px;
+    color: #804E21;
+    font-weight: bold;
+}
+.problem2-2{
+    background-color: #FFFFFF;
+    border-radius: 80%;
+    width: 46px;
+    height: 26px;
+}
+.problem2-3{
+    background-color: #FFFFFF;
+    border-radius: 80%;
+    width: 24px;
+    height: 16px;
+}
+.position01{
+    position: absolute;
+    width: 357px;
+    max-width: 100%;
+    top: 50px;
+}
+.position1{
+    position: relative;
+}
+.position1-2{
+    position: absolute;
+    left: 50px;
+    top: 120px;
+}
+.position1-3{
+    position: absolute;
+    left: 80px;
+    top: 150px;
+}
+.position02{
+    position: absolute;
+    width: 357px;
+    max-width: 100%;
+    top: 160px;
+    right: -120px;
+}
+.position2{
+    position: relative;
+}
+.position2-2{
+    position: absolute;
+    left: 160px;
+    top: 110px;
+}
+.position2-3{
+    position: absolute;
+    left: 140px;
+    top: 140px;
+}
+.position03{
+    position: absolute;
+    width: 357px;
+    max-width: 100%;
+    top: 275px;
+}
+.position3{
+    position: relative;
+}
+.position3-2{
+    position: absolute;
+    left: 30px;
+    top: 120px;
+}
+.position3-3{
+    position: absolute;
+    left: 60px;
+    top: 150px;
+}
+.problem img{
+    height: auto;
+    width: 239px;
+    position: absolute;
+    left: 100px;
+    top: 390px;
+}
 
+.solution{
+    display: flex;
+    flex-direction: column;
+    color: #804E21;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+.solution1{
+    color: #804E21;
+    font-size: clamp(14px, calc(18.18vw - 4.18px), 24px);
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 7px 0;
+}
+.solution2{
+    width: 140px;
+    position: absolute;
+    top: 180px;
+    z-index: 300;
+}
+.solution3{
+    width: 153px;
+    position: absolute;
+    left: 55px;
+    top: 275px;
+    z-index: 300;
+}
+.solution4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 330px;
+}
+.solution_inner{
+    background-color: #FFFFFF;
+    width: 236px;
+    height: 236px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 160px;
+    border: 1px solid #4E9D1E;
+    z-index: 100;
+}
+.solution0{
+    background-color: #FFE34E;
+    border-radius: 50%;
+    width: 118px;
+    height: 118px;
+    position: absolute;
+    z-index: 100;
+}
+.solution5{
+    text-align: left;
+    z-index: 300;
+    position: absolute;
+    left: 90px;
+}
+.solution6{
+    text-align: right;
+    z-index: 300;
+    position: absolute;
+    right: 90px;
+}
+.solution7{
+    text-align: left;
+    z-index: 300;
+    position: absolute;
+    left: 90px;
+}
+.solution8{
+    text-align: right;
+    z-index: 300;
+    position: absolute;
+    right: 90px;
+}
+.solution01{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.solution5-1{
+    display: flex;
+    justify-content: left;
+    padding: 0 0 0 30px;
+}
+.solution6-1{
+    display: flex;
+    justify-content: right;
+    padding: 0 30px 0 0;
+}
+.solution7-1{
+    display: flex;
+    justify-content: left;
+    padding: 0 0 0 30px;
+}
+.solution8-1{
+    display: flex;
+    justify-content: right;
+    padding: 0 30px 0 0;
+}
+.solution9{
+    font-size: clamp(14px, calc(10.9vw - 3.1px), 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
+    width: 375px;
+    height: 350px;
+    padding: 40px 0;
+}
+.curve{
+    position:absolute;
+    width:357px;
+    height:600px;
+    top:440px;
+    left:0;
+    z-index:1;
+}
+.monitor{
+    color: #804E21;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.monitor1{
+    align-self: flex-start;
+    margin: 35px 0 -15px 40px;
+    font-weight: 500;
+}
+.monitor2{
+    background-color: #4E9D1E;
+    width: 33%;
+    height: 2px;
+    background-repeat: no-repeat;
+    transform: rotate(-8deg);
+    position: absolute;
+    inset-block-start: 73px;
+    z-index: 100;
+
+}
+.monitor2-1{
+    font-size: clamp(40px, calc(43.6vw - 3.6px), 64px);
+    font-weight: 600;
+    color: #FFE34E;
+    padding: 0 5px 0 0;
+
+    text-shadow:
+        1.75px 0 #804E21,
+        -1.75px 0 #804E21,
+        0 1.75px #804E21,
+        0 -1.1px #804E21,
+        1.75px 1.75px #804E21,
+        -1.1px -1.1px #804E21,
+        1.1px -1.1px #804E21,
+        -1.75px 1.75px #804E21;
+}
+.monitor2-2{
+    font-size: clamp(20px, calc(21.8vw - 1.8px), 32px);
+    font-weight: 600;
+    color: #FFE34E;
+    padding: 0 5px 0 0;
+
+    text-shadow:
+        1.75px 0 #804E21,
+        -1.75px 0 #804E21,
+        0 1.75px #804E21,
+        0 -1.1px #804E21,
+        1.75px 1.75px #804E21,
+        -1.1px -1.1px #804E21,
+        1.1px -1.1px #804E21,
+        -1.75px 1.75px #804E21;
+}
+
+.monitor img{
+    width: 182px;
+}
+.monitor4{
+    font-size: clamp(14px, calc(10.9vw - 3.1px), 20px);
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.monitor4-1{
+    background-image: url(images/〇.png);
+    width: 53px;
+    height: 43px;
+    background-size: 53px 43px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: -30px;
+    top: -10px;
+    z-index: 100;
+}
+.monitor4-1-1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.monitor4-1-2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.monitor4-1-3{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.monitor5{
+    display: flex;
+    align-items: end;
+    position: relative;
+}
+.monitor5 > div:first-child{
+    position: relative;
+    z-index: 300;
+}
+.monitor3{
+    font-size: clamp(14px, calc(10.9vw - 3.1px), 20px);
+    padding: 0 0 10px 0;
+}
+.monitor6{
+    z-index: 300;
+}
+.monitor7{
+    position: relative;
+    font-size: clamp(14px, calc(10.9vw - 3.1px), 20px);
+}
+.monitor8{
+    background-color: #FFFFFF;
+    border-radius: 80%;
+    padding: 30px 40px;
+    position: relative;
+    z-index: 300;
+    text-align: center;
+}
+.monitor9{
+    background-color: #FFFFFF;
+    width: 36px;
+    height: 104px;
+    corner-shape: bevel;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    transform: rotate(-15deg);
+    z-index: 100;
+}
+.monitor img{
+    padding: 40px 0 30px 0;
 }
