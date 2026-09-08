@@ -248,7 +248,8 @@ main{
     align-items: center;
     position: relative;
     margin-top: 20px;
-    min-height: 680px;
+    min-height: 650px;
+    padding-bottom: 30px;
 }
 .problem1{
     font-size: clamp(14px, calc(10.9vw - 3.1px), 20px);
