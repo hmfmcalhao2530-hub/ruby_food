@@ -249,6 +249,9 @@ main{
     position: relative;
     margin-top: 20px;
     min-height: 760px;
+    width: 375px;
+    max-width: 100%;
+    margin: 0 auto;
 
 }
 .problem1{
@@ -355,6 +358,9 @@ main{
     text-align: center;
     position: relative;
     align-items: center;
+    width: 375px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 .solution1{
     color: #804E21;
@@ -474,6 +480,9 @@ main{
     flex-direction: column;
     align-items: center;
     padding-bottom: 40px;
+    width: 375px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 .monitor1{
     align-self: flex-start;
