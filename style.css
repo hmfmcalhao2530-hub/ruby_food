@@ -248,8 +248,8 @@ main{
     align-items: center;
     position: relative;
     margin-top: 20px;
-    min-height: 650px;
-    padding-bottom: 30px;
+    min-height: 760px;
+
 }
 .problem1{
     font-size: clamp(14px, calc(10.9vw - 3.1px), 20px);
@@ -304,7 +304,7 @@ main{
     width: 357px;
     max-width: 100%;
     top: 160px;
-    right: -120px;
+    right: 0px;
 }
 .position2{
     position: relative;
