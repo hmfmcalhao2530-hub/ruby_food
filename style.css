@@ -345,9 +345,9 @@ main{
 .problem img{
     height: auto;
     width: 239px;
-    position: absolute;
-    left: 100px;
-    top: 390px;
+    display: flex;
+    justify-content: center;
+    padding: 350px 0 0 20%;
 }
 
 .solution{
@@ -358,8 +358,6 @@ main{
     text-align: center;
     position: relative;
     align-items: center;
-    width: 375px;
-    max-width: 100%;
     margin: 0 auto;
 }
 .solution1{
@@ -377,10 +375,10 @@ main{
 }
 .solution3{
     width: 153px;
-    position: absolute;
-    left: 55px;
-    top: 275px;
+    display: flex;
+    justify-content: center;
     z-index: 300;
+    padding: 125px 145px 0 0;
 }
 .solution4{
     display: flex;
@@ -464,14 +462,18 @@ main{
     width: 375px;
     height: 350px;
     padding: 40px 0;
+    width: 375px;
+    max-width: 100%;
 }
 .curve{
-    position:absolute;
+    display: flex;
+    justify-content: center;
     width:357px;
     height:600px;
-    top:440px;
-    left:0;
     z-index:1;
+    position: absolute;
+    top: 430px;
+    max-width: 100%;
 }
 .monitor{
     color: #804E21;
